@@ -15,4 +15,10 @@ The final data is the "nyc_data.csv" file which contains:\
     -adj_pop (population of neighborhood, adjusted from original data for compatibility to our data)\
     -median_daily_test_rate (of covid testing rate in neighborhood per 100000 people)\
     -avg_test_score (the average test score of elementary schools within the neighborhood)
-    
+
+### Model Set Up
+The model_set_up folder contains the final data for use (nyc_data.csv) as well as notebooks used to attempt to model our algorithm.
+For modeling, K-means clustering, hierarchical agglomerative clustering, and DBScan were all tried and tested to make a model.
+
+The results of our testing in fitting a model proved that K-means clustering provides the best separation in creating clusters.
+
